@@ -15,7 +15,7 @@ A Claude Code skill that teaches you one new thing every time you run it — dra
 ## Install
 
 ```bash
-npx skills add kaviDevx/spark-skill
+npx skills add kaviDevx/spark-skill --agent claude-code
 ```
 
 ## Usage
