@@ -1,0 +1,4 @@
+{
+  "name": "spark-skill",
+  "agents": ["claude-code", "cursor", "codex"]
+}
