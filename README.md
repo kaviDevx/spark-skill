@@ -1,6 +1,6 @@
 # ⚡ Spark — Learn Something New Every Day
 
-A Claude Code skill that teaches you one new thing every time you run it — drawn from your work context, trending tech topics, and timeless developer growth concepts.
+A skill for Claude Code, Cursor, and Codex that teaches you one new thing every time you run it — drawn from your work context, trending tech topics, and timeless developer growth concepts.
 
 ## What it does
 
@@ -15,12 +15,14 @@ A Claude Code skill that teaches you one new thing every time you run it — dra
 ## Install
 
 ```bash
-npx skills add kaviDevx/spark-skill --all
+npx skills add kaviDevx/spark-skill
 ```
+
+> Automatically installs for all detected agents (Claude Code, Cursor, Codex). Use `--agent claude-code` to install for a specific agent only.
 
 ## Usage
 
-In any Claude Code session:
+In any AI session (Claude Code, Cursor, Codex):
 ```
 /spark
 ```
