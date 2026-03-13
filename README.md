@@ -18,6 +18,13 @@ A skill for Claude Code, Cursor, and Codex that teaches you one new thing every 
 npx skills add kaviDevx/spark-skill
 ```
 
+Installs for all detected agents (Claude Code, Cursor, Codex). Use `--agent` to install for a specific agent only:
+
+```bash
+npx skills add kaviDevx/spark-skill --agent claude-code
+npx skills add kaviDevx/spark-skill --agent cursor
+npx skills add kaviDevx/spark-skill --agent codex
+```
 
 ## Usage
 
@@ -40,7 +47,7 @@ to do next on its own — it plans, acts, observes, and loops until
 the goal is complete. The difference is autonomy.
 
 Real example:
-Assistant: "Here's how to write a deployment script"
+Assistant: "Here is how to write a deployment script"
 Agent: writes the script → runs it → sees the error → fixes it → retries
 
 Why it matters to you:
