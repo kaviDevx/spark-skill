@@ -1,48 +1,50 @@
 # ⚡ Spark — Learn Something New Every Day
 
-A Claude Code skill that teaches you one new thing every time you run it — drawn from your current work context, covering both **tech and non-tech** topics.
+A Claude Code skill that teaches you one new thing every time you run it — drawn from your work context, trending tech topics, and timeless developer growth concepts.
 
 ## What it does
 
-- Picks a topic **relevant to what you're working on**
+- Picks a topic from a **smart mix** of 3 sources:
+  - What you're currently working on (personal context)
+  - Trending tech (AI, new frameworks, hot tools, industry debates)
+  - Timeless developer growth (mental models, system design, career skills)
 - Teaches it in under 60 seconds — clear, no fluff
-- If you're curious, type `deep` for a full breakdown
+- Type `deep` for a full breakdown
 - Type `next` for a completely different topic
 
-## Topics it covers
+## Install
 
-**Tech** — programming concepts, system design, language features, DevOps, security
-**Non-Tech** — mental models, psychology, productivity, communication, philosophy
-
-## How to use
-
-1. Copy `spark.md` to your Claude Code skills folder:
 ```bash
-cp spark.md ~/.claude/skills/spark.md
+npx skills add kaviDevx/spark-skill
 ```
 
-2. In any Claude Code session, just say:
-```
-run spark
-```
+## Usage
 
-Or after publishing support lands:
+In any Claude Code session:
 ```
 /spark
 ```
 
+Then:
+- Type `deep` → full deep dive on the topic
+- Type `next` → different spark entirely
+
 ## Example
 
 ```
-⚡ Spark: The Strangler Fig Pattern
+⚡ Spark: AI Agents vs AI Assistants
 
-You're working on an existing system and want to replace parts of it
-without breaking everything. The Strangler Fig pattern lets you wrap
-the old system and slowly migrate — new requests go to new code,
-old ones still work until you're ready to cut over.
+An AI assistant responds to what you ask. An AI agent decides what
+to do next on its own — it plans, acts, observes, and loops until
+the goal is complete. The difference is autonomy.
+
+Real example:
+Assistant: "Here's how to write a deployment script"
+Agent: writes the script → runs it → sees the error → fixes it → retries
 
 Why it matters to you:
-Perfect for evolving features in live systems without big-bang rewrites.
+As a dev building on AI, knowing this distinction shapes how you
+design features that use LLMs.
 
 ---
 Curious? Type deep to dive in — or next for a different spark.
