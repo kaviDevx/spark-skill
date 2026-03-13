@@ -1,19 +1,35 @@
 # Spark — Learn Something New Every Day
 
 ## Overview
-Teach the user one new thing every time `/spark` is run. Topics are drawn from the user's recent work history and context, but can also span outside tech — psychology, mental models, science, productivity, philosophy, etc.
+Teach the user one new thing every time `/spark` is run. Topics are drawn from a **mix of three sources**:
+1. The user's recent work history and current project context
+2. Trending tech topics — what the industry is talking about right now (AI, new frameworks, tools, paradigms)
+3. Timeless concepts that make you a better developer in every way — technically, mentally, and professionally
 
 ## Behavior
 
-### Step 1 — Read Context
-Before picking a topic, silently look at:
+### Step 1 — Pick a Topic (Balanced Mix)
+Use a rotating mix across these three sources — don't always pull from the same one:
+
+**Source A — User's context (personal)**
 - Files recently opened or edited in this session
 - The current project (language, framework, domain)
-- Any topics the user has mentioned in the conversation
+- Topics the user has mentioned in the conversation
+- Pick something that feels directly relevant to what they're building
 
-Use this to pick a topic that feels **personally relevant** — not random, but connected to what they're doing or thinking about.
+**Source B — Trending tech (industry pulse)**
+- What's hot in the dev world right now: AI/LLMs, edge computing, new frameworks, Web3, DevEx tools, open source breakthroughs
+- Topics developers are actively discussing on X, HN, GitHub, and dev blogs
+- New releases, paradigm shifts, tools gaining rapid adoption
+- Example: "Bun vs Node", "htmx renaissance", "AI-assisted coding patterns", "Rust in frontend tooling"
 
-If there's no context available, pick something universally useful for a developer.
+**Source C — Developer growth (timeless)**
+- Concepts that make you a better developer regardless of stack
+- System design fundamentals, software craftsmanship, architecture thinking
+- Career skills: code reviews, technical writing, estimation, debugging mindset
+- Cross-discipline: psychology of focus, economics of tech decisions, history of computing
+
+**Rotation rule:** Don't pick from the same source twice in a row. Vary it. Keep the user growing in all directions.
 
 ### Step 2 — Teach the Spark
 Present ONE concept in this format:
@@ -64,22 +80,31 @@ Pick a completely different topic — different domain, different type (switch b
 ---
 
 ## Topic Categories
-Draw from any of these:
 
-**Tech**
+**From User Context**
+- Whatever they're building right now
+- Gaps or patterns noticed in their code
+- Tools/frameworks they're using but may not know deeply
+
+**Trending Tech (Industry Pulse)**
+- AI & LLMs (agents, RAG, fine-tuning, prompt engineering)
+- New frameworks gaining traction (Bun, Astro, Hono, Turso, etc.)
+- Paradigm shifts (edge computing, serverless, AI-native apps)
+- Developer tooling breakthroughs (Cursor, Zed, Warp, etc.)
+- Open source projects blowing up on GitHub
+- Hot debates in the dev community
+
+**Developer Growth (Timeless)**
 - Programming concepts (data structures, algorithms, patterns)
-- Language-specific features (hidden gems, lesser-known syntax)
-- System design (caching, queues, databases, APIs)
-- DevOps / tooling (git tricks, terminal, performance)
-- Security, accessibility, testing
-
-**Non-Tech (but valuable for devs)**
+- System design (caching, queues, databases, APIs, scaling)
+- Language-specific hidden gems
+- DevOps / tooling mastery
+- Security, performance, accessibility
 - Mental models (first principles, inversion, second-order thinking)
-- Psychology (cognitive biases, motivation, focus, habits)
-- Communication (writing clearly, explaining ideas, giving feedback)
-- Productivity (deep work, time blocking, energy management)
-- Science / math concepts that apply to engineering
-- Philosophy of technology and decision making
+- Psychology (cognitive biases, motivation, focus, deep work)
+- Communication (writing clearly, explaining tech, giving feedback)
+- Career skills (estimation, code reviews, technical leadership)
+- History of computing — why things are the way they are
 
 ---
 
