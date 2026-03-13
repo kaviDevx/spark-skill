@@ -18,7 +18,6 @@ A skill for Claude Code, Cursor, and Codex that teaches you one new thing every 
 npx skills add kaviDevx/spark-skill
 ```
 
-> Automatically installs for all detected agents (Claude Code, Cursor, Codex). Use `--agent claude-code` to install for a specific agent only.
 
 ## Usage
 
